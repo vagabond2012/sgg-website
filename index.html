@@ -1,0 +1,191 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>South Gujarat Group | Grow Together in North America</title>
+    <meta
+      name="description"
+      content="South Gujarat Group is a volunteer-run community helping students, newcomers, and young professionals from South Gujarat connect, grow, and support each other in North America."
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&family=Manrope:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <a class="brand" href="#home">
+        <img src="assets/logo.png" alt="South Gujarat Group logo" onerror="this.src='assets/logo-mark.svg'" />
+        <span>South Gujarat Group</span>
+      </a>
+      <nav class="navlinks">
+        <a href="#about">About</a>
+        <a href="#events">Events</a>
+        <a href="#channels">Channels</a>
+        <a class="btn btn-small" href="#join">Join</a>
+      </nav>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-layout">
+          <div class="hero-copy">
+            <p class="eyebrow">Volunteer-run | South Gujarat roots | North America network</p>
+            <h1>Find your people. Build your future. Stay connected.</h1>
+            <p>
+              SGG is a casual, supportive community for students, newcomers, and young professionals with South Gujarat
+              roots, with active members across the United States and Canada. We host meetups, share career support, and help people settle in.
+            </p>
+            <div class="hero-cta">
+              <a class="btn" href="#join">Request Membership</a>
+              <a class="btn btn-ghost" href="#channels">Explore Channels</a>
+            </div>
+          </div>
+          <div id="events" class="hero-events">
+            <div class="section-head">
+              <h2>Recent meetups and events</h2>
+              <a class="text-link" href="#join">Want updates? Join SGG</a>
+            </div>
+            <div id="eventGrid" class="grid hero-event-grid"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="panel">
+        <h2>What SGG is about</h2>
+        <p>
+          We started SGG to keep South Gujarat families, students, and professionals connected across North America, with members in both the U.S. and Canada.
+          The goal is simple: make transitions easier and growth faster through real community.
+        </p>
+        <div class="grid three">
+          <article class="card">
+            <h3>Help Newcomers</h3>
+            <p>Guidance on settling in, career direction, and practical peer support for students and families.</p>
+          </article>
+          <article class="card">
+            <h3>Career Network</h3>
+            <p>Resume feedback, mentoring, LinkedIn networking, referrals, and genuine one-to-one introductions.</p>
+          </article>
+          <article class="card">
+            <h3>Keep In Touch</h3>
+            <p>Local and regional meetups that build social connections and professional opportunities.</p>
+          </article>
+        </div>
+        <div class="tenets">
+          <h3>Community Tenets</h3>
+          <ul>
+            <li>Non-profit, volunteer-led, minimal operating cost.</li>
+            <li>Culturally aligned and welcoming for all members.</li>
+            <li>No political discussion or irrelevant forwards.</li>
+            <li>Member information remains private and never shared with third parties.</li>
+          </ul>
+        </div>
+      </section>
+
+      <section id="channels" class="panel">
+        <h2>Where to find us online</h2>
+        <p>
+          Build one consistent SGG vibe across channels: helpful, real, career-positive, and community-first.
+          Every channel should include a "Recent Events" highlight and a "Request Membership" link.
+        </p>
+        <div class="grid two">
+          <article class="card channel">
+            <h3>LinkedIn Page + Group</h3>
+            <p>Primary home for professional updates, internship/job highlights, mentor shoutouts, and event recaps.</p>
+            <p class="mini">Best for: new grads and job seekers</p>
+          </article>
+          <article class="card channel">
+            <h3>Instagram</h3>
+            <p>Photo-first channel for meetup moments, quick reels, member spotlights, and event story countdowns.</p>
+            <p class="mini">Best for: reach and culture</p>
+          </article>
+          <article class="card channel">
+            <h3>YouTube</h3>
+            <p>Long-form value: career talks, moving-to-US/Canada guides, and recorded community sessions.</p>
+            <p class="mini">Best for: trust and discoverability</p>
+          </article>
+          <article class="card channel">
+            <h3>X (Twitter)</h3>
+            <p>Quick updates on events, deadlines, and links to resources with short community-driven threads.</p>
+            <p class="mini">Best for: fast updates</p>
+          </article>
+          <article class="card channel">
+            <h3>WhatsApp Community</h3>
+            <p>Lightweight member communication with city-based groups and event reminders.</p>
+            <p class="mini">Best for: active community engagement</p>
+          </article>
+          <article class="card channel">
+            <h3>Discord (Optional)</h3>
+            <p>Organize topic channels for housing, jobs, visas, and mentorship office hours.</p>
+            <p class="mini">Best for: scalable peer support</p>
+          </article>
+        </div>
+      </section>
+
+      <section id="join" class="panel join">
+        <h2>Request Membership</h2>
+        <p>Fill this quick form and an SGG volunteer will reach out.</p>
+        <form id="joinForm" class="join-form">
+          <label>
+            Full name
+            <input type="text" name="name" required />
+          </label>
+          <label>
+            Email
+            <input type="email" name="email" required />
+          </label>
+          <label>
+            Phone
+            <input type="tel" name="phone" required />
+          </label>
+          <label>
+            South Gujarat ancestral village
+            <input type="text" name="village" required />
+          </label>
+          <label>
+            Current city (North America)
+            <input type="text" name="city" required />
+          </label>
+          <label>
+            What support are you looking for?
+            <select name="support" required>
+              <option value="">Select one</option>
+              <option>Networking and introductions</option>
+              <option>Resume or career guidance</option>
+              <option>Meetup and community events</option>
+              <option>General community support</option>
+            </select>
+          </label>
+          <label>
+            Message
+            <textarea name="message" rows="4" placeholder="Tell us a bit about yourself"></textarea>
+          </label>
+          <button class="btn" type="submit">Send Request</button>
+          <p id="formNote" class="form-note" aria-live="polite"></p>
+        </form>
+
+        <div class="contacts">
+          <h3>Prefer direct contact?</h3>
+          <p>Reach out to any SGG volunteer coordinator:</p>
+          <ul>
+            <li>Darshan Patel (Bay Area, CA) - <a href="tel:+10000000000">(000) 000-0000</a></li>
+            <li>Jitendra Kaneria (Bay Area, CA) - <a href="tel:+10000000000">(000) 000-0000</a></li>
+            <li>Bhavesh Rathod (Edison, NJ) - <a href="tel:+10000000000">(000) 000-0000</a></li>
+            <li>Sameer Tawadia (Bay Area, CA) - <a href="tel:+10000000000">(000) 000-0000</a></li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>South Gujarat Group - North America | Volunteer-run, non-profit community</p>
+      <p class="mini">Built for connection, growth, and belonging.</p>
+    </footer>
+
+    <script src="app.js"></script>
+  </body>
+</html>
